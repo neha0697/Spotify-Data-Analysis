@@ -1,2 +1,2 @@
 # Spotify Advance SQL Project
-![Spotify Logo]("https://github.com/neha0697/Spotify-Data-Analysis/blob/main/spotify_logo.jpg")
+!(spotify Logo)["https://github.com/neha0697/Spotify-Data-Analysis/blob/main/spotify_logo.jpg"]
