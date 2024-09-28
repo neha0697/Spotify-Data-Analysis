@@ -64,7 +64,7 @@ In advanced stages, the focus shifts to improving query performance. Some optimi
 * **Indexing:** Adding indexes on frequently queried columns.
 * **Query Execution Plan:** Using `EXPLAIN ANALYZE` to review and refine query performance.
 
-## 15 Practice Questions
+## Practice Questions
 
 ### Easy Level
 **1. Calculate the average danceability of tracks in each album.**
@@ -197,6 +197,8 @@ SELECT album, (highest_energy - lowest_energy) AS energy_difference
 FROM CTE
 ORDER BY 2 DESC;
 ```
+
+
 
 
 
