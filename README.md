@@ -5,6 +5,7 @@
 This project involves analyzing a Spotify dataset with various attributes about tracks, albums, and artists using SQL. It covers an end-to-end process of normalizing a denormalized dataset, performing SQL queries of varying complexity (easy, medium, and advanced), and optimizing query performance. The primary goals of the project are to practice advanced SQL skills and generate valuable insights from the dataset.
 
 ```sql
+DROP TABLE IF EXISTS spotify;
 CREATE TABLE spotify (
     artist VARCHAR(255),
     track VARCHAR(255),
@@ -32,3 +33,16 @@ CREATE TABLE spotify (
     most_played_on VARCHAR(50)
 );
 ```
+
+# Project Steps
+
+##  Data Exploration
+Before diving into SQL, it’s important to understand the dataset thoroughly. The dataset contains attributes such as:
+* `Artist`: The performer of the track.
+* `Track`: The name of the song.
+* `Album`: The album to which the track belongs.
+* `Album_type`: The type of album (e.g., single or album).
+* Various metrics such as `danceability`, `energy`, `loudness`, `tempo` and more.
+
+##  Data Cleaning
+
